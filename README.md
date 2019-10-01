@@ -1,6 +1,6 @@
 # Token-bucket-algorithm
 
-The objective of this project is to model, simulate, and analyze token bucket algorithm.
+The objective of this project is to model, simulate, and analyze token bucket algorithm using omnet++.
 Station-A(Source) is sending packets towards Station-B(sink) via the Traffic Shaper. The traffic from Station-A is randomly generated following 
 Poisson distribution. That is, the inter-arrival time between packets is Poisson distributed and hence is of variable packet rate. 
 The traffic shaper will queue the incoming packets from A and then “schedule” them at a constant bit rate towards Station-B. Thus 
